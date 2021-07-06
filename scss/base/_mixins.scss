@@ -1,0 +1,29 @@
+@mixin btn {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#333333;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:transparent;
+    border-color: #061d01;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    text-transform: uppercase;
+    color: white;
+}
+
+@mixin card-header {
+    margin-top: 25px;
+    height: 70px;
+    box-shadow: 1px 7px 15px #363636;
+}
+
+@mixin header-card {
+    margin-top: 45px;
+    height: 70px;
+    box-shadow: 1px 7px 15px #363636;
+}

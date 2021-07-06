@@ -1,0 +1,137 @@
+@import "../base/variables";
+@import "../base/listas";
+
+/* PRODUCTOS */
+.card-body-productos {
+    background-color: #04460c42;
+    opacity: 0.8;
+    box-shadow: 0px 5px 0 rgba(0, 0, 0, 0.589);
+}
+
+.card-body-productos:hover {
+    box-shadow: 1px 1px 20px #313030;
+}
+
+.card-text {
+    color: #000000;
+    font-family: $font;
+    font-style: oblique;
+    text-align: center;
+}
+
+.card-foto {
+    width: 50%;
+    height: auto;
+    border-radius: 30%;
+    justify-content: center;
+}
+
+
+
+
+/* SHOP */
+
+/* TARJETAS */
+
+/* TARJETA 1 */
+.card-header-uno {
+    @include card-header;
+    background: nth($gradiente, 1);
+}
+
+/* TARJETA 2 */
+.card-header-dos {
+    @include card-header;
+    background: nth($gradiente, 2);
+
+}
+
+/* TARJETA 3 */
+.card-header-tres {
+    @include header-card;
+    background: nth($gradiente, 3);
+}
+
+/* TARJETA 4 */
+.card-header-cuatro {
+    @include header-card;
+    background: nth($gradiente, 4);
+}
+
+/* TARJETA 5 */
+.card-header-cinco {
+    @include card-header;
+    background: nth($gradiente, 5);
+
+}
+
+/* TARJETA 6 */
+.card-header-seis {
+    @include header-card;
+    background: nth($gradiente, 6);
+}
+
+/* TARJETA 7 */
+.card-header-siete {
+    margin-top: 30px;
+    height: 70px;
+    background: nth($gradiente, 7);
+    box-shadow: 1px 7px 15px #363636;
+}
+
+/* TARJETA 8 */
+.card-header-ocho {
+    @include card-header;
+    background: nth($gradiente, 7);
+
+}
+
+/* TARJETA 9 */
+.card-header-nueve {
+    @include header-card;
+    background: nth($gradiente, 7);
+}
+
+/* TARJETA 10 */
+.card-header-diez {
+    text-align: center;
+    @include header-card;
+    background: nth($gradiente, 7);
+}
+
+/* TARJETA 11 */
+.card-header-once {
+    text-align: center;
+    @include card-header;
+    background: nth($gradiente, 7);
+
+}
+
+/* TARJETA 12 */
+.card-header-doce {
+    text-align: center;
+    @include header-card;
+    background: nth($gradiente, 7);
+}
+
+/* Transition */
+.card-section {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.card-section:hover {
+    transform: scale(1.1);
+    transform-origin: center center;
+    border-radius: 80px;
+}
+
+/* Shadow para las tarjetas */
+
+.card-section {
+    box-shadow: 0 px 5px 0 rgba(0, 0, 0, 0.589);
+}
+
+.card-section:hover {
+    box-shadow: 1px 1px 20px #d2d2d2;
+}

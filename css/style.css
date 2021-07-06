@@ -1,0 +1,785 @@
+.menu {
+  background-color: #022b09;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  color: #fff;
+  font-size: 35px;
+  padding: 0 80px;
+  font-weight: bold;
+}
+
+.menu_items {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  z-index: 200;
+}
+
+.menu_items li {
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+.menu_items li a {
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.menu_items li a:hover {
+  background-color: #001a08;
+  transition: 0.4s;
+}
+
+.btn_menu {
+  margin-right: 30px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+ul.show {
+  top: 65px;
+}
+
+@media screen and (max-width: 952px) {
+  .logo {
+    font-size: 30px;
+    padding-left: 35px;
+  }
+
+  .menu_items li a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 858px) {
+  .menu {
+    height: 65px;
+  }
+
+  .btn_menu {
+    display: inline-flex;
+  }
+
+  .menu_items {
+    position: fixed;
+    width: 100vw;
+    height: 35px;
+    background: #f4f4f4;
+    top: -100vw;
+    text-align: center;
+    transition: all 0.4s;
+    flex-direction: column;
+  }
+
+  .menu_items li {
+    margin: 30px 0 0 0;
+    line-height: 30px;
+  }
+
+  .menu_items li:hover {
+    background: none;
+  }
+
+  .menu_items li a {
+    font-size: 20px;
+    color: #49b664;
+    font-weight: bold;
+  }
+
+  .menu_items li a:hover {
+    color: #ffffff;
+  }
+
+  .logo {
+    font-size: 25px;
+    padding-left: 35px;
+  }
+}
+@media screen and (max-width: 858px) and (orientation: landscape) {
+  .menu_items li {
+    margin: 5px 0 0 0;
+  }
+
+  .menu_items {
+    overflow: scroll;
+    height: 35px;
+  }
+}
+.button-personalizado1 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border-color: #061d01;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 35px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+.button-personalizado2 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border-color: #061d01;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 35px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  top: 1px;
+}
+
+.button-personalizado3 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border-color: #061d01;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 35px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  top: 15px;
+}
+
+/* BOTON CON GRADIENTE */
+.gradient {
+  border: 0;
+  background-image: linear-gradient(to top right, #ACE1AF, #018749, #76a02e);
+}
+
+/* LISTAS */
+/* Gradientes */
+/* PRODUCTOS */
+.card-body-productos {
+  background-color: #04460c42;
+  opacity: 0.8;
+  box-shadow: 0px 5px 0 rgba(0, 0, 0, 0.589);
+}
+
+.card-body-productos:hover {
+  box-shadow: 1px 1px 20px #313030;
+}
+
+.card-text {
+  color: #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  text-align: center;
+}
+
+.card-foto {
+  width: 50%;
+  height: auto;
+  border-radius: 30%;
+  justify-content: center;
+}
+
+/* SHOP */
+/* TARJETAS */
+/* TARJETA 1 */
+.card-header-uno {
+  margin-top: 25px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #6f776f, #ffffff);
+}
+
+/* TARJETA 2 */
+.card-header-dos {
+  margin-top: 25px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #04460c, #8ccca1);
+}
+
+/* TARJETA 3 */
+.card-header-tres {
+  margin-top: 45px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #0c0c0c, #4d534f);
+}
+
+/* TARJETA 4 */
+.card-header-cuatro {
+  margin-top: 45px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #a7a15b, #575e02);
+}
+
+/* TARJETA 5 */
+.card-header-cinco {
+  margin-top: 25px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #550303, #cf6565);
+}
+
+/* TARJETA 6 */
+.card-header-seis {
+  margin-top: 45px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #05002c, #6d5dc9);
+}
+
+/* TARJETA 7 */
+.card-header-siete {
+  margin-top: 30px;
+  height: 70px;
+  background: linear-gradient(-90deg, #0c0c0c, #4d534f);
+  box-shadow: 1px 7px 15px #363636;
+}
+
+/* TARJETA 8 */
+.card-header-ocho {
+  margin-top: 25px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #0c0c0c, #4d534f);
+}
+
+/* TARJETA 9 */
+.card-header-nueve {
+  margin-top: 45px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #0c0c0c, #4d534f);
+}
+
+/* TARJETA 10 */
+.card-header-diez {
+  text-align: center;
+  margin-top: 45px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #0c0c0c, #4d534f);
+}
+
+/* TARJETA 11 */
+.card-header-once {
+  text-align: center;
+  margin-top: 25px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #0c0c0c, #4d534f);
+}
+
+/* TARJETA 12 */
+.card-header-doce {
+  text-align: center;
+  margin-top: 45px;
+  height: 70px;
+  box-shadow: 1px 7px 15px #363636;
+  background: linear-gradient(-90deg, #0c0c0c, #4d534f);
+}
+
+/* Transition */
+.card-section {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-section:hover {
+  transform: scale(1.1);
+  transform-origin: center center;
+  border-radius: 80px;
+}
+
+/* Shadow para las tarjetas */
+.card-section {
+  box-shadow: 0 px 5px 0 rgba(0, 0, 0, 0.589);
+}
+
+.card-section:hover {
+  box-shadow: 1px 1px 20px #d2d2d2;
+}
+
+/* FOOTER */
+.Footer {
+  background-color: #0135085d;
+  width: 100%;
+  height: auto;
+}
+
+.Menu-Footer {
+  margin-left: 30%;
+}
+
+/* media query (en progreso)*/
+/* /mobile/ */
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #ffffff;
+  }
+}
+/* /tablet/ */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-color: #ffffff;
+  }
+}
+/* /desktop/ */
+@media only screen and (min-width: 1025px) {
+  body {
+    background-color: #b9c9bc8e;
+  }
+}
+/* LISTAS */
+/* Gradientes */
+@font-face {
+  font-family: Fruktur;
+  src: url(../fonts/Fruktur-Regular.ttf) format(ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: NanumMyeonjo-Bold;
+  src: url(../fonts/NanumMyeongjo-Bold.ttf) format(ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: OtomanopeeOne;
+  src: url(../fonts/OtomanopeeOne-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* INDEX */
+.Titulo {
+  font-family: NanumMyeonjo-Bold;
+  margin-top: 90px;
+}
+
+.Texto {
+  background-color: #aacfa0;
+  margin-left: 10%;
+  border-radius: 10px;
+  z-index: 30;
+  height: 60%;
+  width: 50%;
+  box-shadow: 0 px 5px 0 rgba(0, 0, 0, 0.589);
+}
+
+.Texto:hover {
+  box-shadow: 1px 1px 20px #313030;
+}
+
+.Subtitulo {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#Descripcion1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  color: black;
+  text-align: center;
+}
+
+.text-center p {
+  font-size: 15px;
+}
+
+.containerindex {
+  background-image: url(../images/blends.jpg);
+  margin-top: 2px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.containerindex {
+  opacity: 0.7;
+}
+
+.Foto {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* NOSOTROS */
+.Container2 p {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Container2 h2 {
+  text-decoration: underline;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* PRODUCTOS */
+.Container1 {
+  margin-top: 2%;
+}
+
+.Container2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.Divisor {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.Tea-Divisor {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+/* SHOP */
+.principal {
+  margin-top: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+.Foto {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* CONTACTO */
+.containercontacto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
+
+.TituloContacto {
+  margin-left: 10%;
+}
+
+.formulariocontacto {
+  background-color: #0135085d;
+  border-radius: 18px;
+  padding: 30px 25px;
+}
+
+/* Estilos del formulario */
+.SubtituloContacto {
+  text-align: left;
+  font-size: 30px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  color: #8ac585;
+  padding-bottom: 10px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.formulariocontacto p {
+  color: #fffcfc;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 13px;
+  /* line-height: 40px; */
+  padding-top: 15px;
+  text-align: center;
+}
+
+.camposformulario {
+  padding: 2em;
+}
+
+.containerform-contacto {
+  width: 35%;
+  margin: 0 auto;
+  background: black;
+  border-radius: 18px;
+  box-shadow: 10px 10px 16px 0px rgba(199, 191, 191, 0.1);
+}
+
+.camposformulario input[type=text],
+.camposformulario textarea,
+.camposformulario input[type=email] {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 18px;
+  outline: none;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  background: rgba(45, 45, 45, 0.56);
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  color: #0f2e03;
+  margin: 2em 0 1.5em;
+}
+
+.camposformulario textarea {
+  resize: none;
+  height: 100px;
+}
+
+.camposformulario input[type=submit] {
+  background: #022b09;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  text-transform: capitalize;
+  border: 2px solid #022b09;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 24px;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  font-family: "Montserrat", sans-serif;
+}
+
+.camposformulario input[type=submit]:hover {
+  background: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: #adb2bd;
+}
+
+:-moz-placeholder {
+  color: #adb2bd;
+}
+
+::-moz-placeholder {
+  color: #adb2bd;
+}
+
+:-ms-input-placeholder {
+  color: #adb2bd;
+}
+
+/*--Media Query del Formulario--*/
+@media (max-width: 1366px) {
+  h1 {
+    font-size: 32px;
+    margin: 1.5em 0 1em;
+  }
+
+  .SubtituloContacto {
+    font-size: 22px;
+  }
+
+  .formulariocontacto p {
+    font-size: 12px;
+  }
+
+  .camposformulario input[type=submit] {
+    font-size: 16px;
+    padding: 11px 0;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1080px) {
+  h1 {
+    letter-spacing: 6px;
+  }
+
+  .containerform-contacto {
+    width: 50%;
+  }
+}
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 30px;
+    margin: 1.2em 0 1em;
+  }
+
+  .formulariocontacto {
+    padding: 25px 25px;
+  }
+
+  .SubtituloContacto {
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 28px;
+    margin: 1.4em 0 1.1em;
+  }
+}
+@media (max-width: 800px) {
+  .camposformulario {
+    padding: 1.6em 0;
+  }
+
+  .camposformulario input[type=text],
+.camposformulario textarea,
+.camposformulario input[type=email] {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .containerform-contacto {
+    width: 60%;
+  }
+
+  .camposformulario input[type=submit] {
+    font-size: 15px;
+    padding: 10px 0;
+    margin-top: 8px;
+  }
+
+  .formulariocontacto p {
+    line-height: 22px;
+    padding-top: 9px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    margin: 3.4em 0 2.1em;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    margin: 1.4em 0 1.1em;
+  }
+}
+@media (max-width: 736px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .SubtituloContacto {
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+}
+@media (max-width: 640px) {
+  .formulariocontacto {
+    padding: 20px 25px;
+  }
+
+  .camposformulario input[type=submit] {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  h1 {
+    margin: 1.3em 0 1em;
+  }
+}
+@media (max-width: 568px) {
+  .containerform-contacto {
+    width: 65%;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 23px;
+    letter-spacing: 5px;
+  }
+
+  .SubtituloContacto {
+    font-size: 17px;
+  }
+
+  .containerform-contacto {
+    width: 80%;
+  }
+}
+@media (max-width: 414px) {
+  h1 {
+    letter-spacing: 4px;
+    margin: 2.3em 0 1.5em;
+  }
+}
+@media (max-width: 384px) {
+  h1 {
+    letter-spacing: 3px;
+    font-size: 22px;
+    margin: 1.5em 0 1em;
+  }
+
+  .containerform-contacto {
+    width: 82%;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    letter-spacing: 2.5px;
+    font-size: 22px;
+  }
+
+  .containerform-contacto {
+    width: 93%;
+  }
+
+  .camposformulario input[type=submit] {
+    margin-top: 4px;
+  }
+}
+/*--Cierro Media Query--*/
+
+/*# sourceMappingURL=style.css.map */

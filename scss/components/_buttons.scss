@@ -1,0 +1,28 @@
+@import "../base/mixins";
+
+.button-personalizado1 {
+    @include btn;
+    position: relative;
+    top: 10px;
+    
+    }
+    
+    .button-personalizado2 {
+        @include btn;
+        position: relative;
+        top: 1px;
+    }
+    
+    .button-personalizado3 {
+        @include btn;
+        position: relative;
+        top: 15px;
+    }
+    
+    /* BOTON CON GRADIENTE */
+    .gradient {
+        border: 0;
+        background-image: linear-gradient(to top right, #ACE1AF, #018749, #76a02e);
+    }
+    
+    

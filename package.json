@@ -1,0 +1,11 @@
+{
+  "name": "aplicando-sassi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniela Vargas",
+  "license": "ISC",
+  "description": "Pagina de venta online de te en hebras y accesorios"
+}
